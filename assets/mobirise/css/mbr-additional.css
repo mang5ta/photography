@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Permanent+Marker:400);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
 @import url(https://fonts.googleapis.com/css?family=Rokkitt:100,200,300,400,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Knewave:400);
 
 
 
@@ -37,7 +38,7 @@ body {
   font-size: 2.56rem;
 }
 .display-4 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Knewave', display;
   font-size: 1rem;
 }
 .display-4 > .mbr-iconfont {
@@ -1375,13 +1376,26 @@ body {
 .dropup .dropdown-toggle::after {
   display: none;
 }
-.cid-qU2H76YRug {
+.cid-qU80ev8v9g {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #ffffff;
+  background: #ffffff;
 }
-.cid-qU2H76YRug .media-container-row .mbr-text {
-  color: #232323;
+.cid-qU80ev8v9g .image-block {
+  margin: auto;
+}
+.cid-qU80ev8v9g figcaption {
+  position: relative;
+}
+.cid-qU80ev8v9g figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-qU80ev8v9g .image-block {
+    width: 100% !important;
+  }
 }
 .cid-qU2wfK4q0l .modal-body .close {
   background: #1b1b1b;
